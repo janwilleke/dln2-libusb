@@ -5,6 +5,12 @@ Also work on android using Termux. Thus this can de a easy way to the usb io por
 
 I was to lazy to kompile the kernel module for my host the rpi and the next kernel... and so on. Thus libusb is much more simple.
 
+Support for:
+* gpio
+* irqs
+* i2c
+* spi
+  
 # first start
 python3 dln2.py
 
