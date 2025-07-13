@@ -344,7 +344,7 @@ def find_device_by_serial(serial_number):
 
 
 if __name__ == "__main__":
-    #spi, gp, ii= main()
+    spi, gp, ii= main()
     all = usb.core.find(find_all=True)
     for x in all:
         try:
